@@ -4,15 +4,22 @@ interface EventCardProps {
   time: string
   location: string
   description: string
+  image?: string
   index?: number
 }
 
-export default function EventCard({ title, date, time, location, description, index = 0 }: EventCardProps) {
+export default function EventCard({ title, date, time, location, description, image, index = 0 }: EventCardProps) {
   return (
     <div
       className="glass p-8 hover:border-copper/40 transition-all duration-500 group animate-fade-in"
       style={{ animationDelay: `${index * 150}ms` }}
     >
+      {image && (
+        <div className="mb-6 -mx-8 -mt-8 overflow-hidden">
+          <img src={image} alt={title} className="w-full h-48 object-cover" />
+        </div>
+      )}
+
       {/* Decorative top accent */}
       <div className="w-12 h-[2px] bg-copper/60 mb-6 group-hover:w-20 transition-all duration-500" />
 

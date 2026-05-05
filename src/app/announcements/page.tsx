@@ -5,7 +5,8 @@ export default function Announcements() {
     {
       title: "Kemaskini Jadual Ramadan",
       date: "1 Mac 2026",
-      content: "Waktu solat Ramadan dan susunan Iftar telah dikemaskini. Sila semak papan kenyataan untuk butiran lanjut."
+      content: "Waktu solat Ramadan dan susunan Iftar telah dikemaskini. Sila semak papan kenyataan untuk butiran lanjut.",
+      image: "/images/ramadan-schedule.jpg"
     },
     {
       title: "Pengumuman Solat Sunat Raya",
@@ -15,7 +16,8 @@ export default function Announcements() {
     {
       title: "Kelas Al-Quran Baharu Akan Bermula",
       date: "20 Januari 2026",
-      content: "Kelas Al-Quran peringkat permula untuk dewasa akan bermula minggu depan. Daftarlah di kaunter hadapan."
+      content: "Kelas Al-Quran peringkat permula untuk dewasa akan bermula minggu depan. Daftarlah di kaunter hadapan.",
+      image: "/images/quran-class.jpg"
     }
   ]
 

@@ -7,7 +7,8 @@ export default function Events() {
       date: "Setiap Hari Sabtu",
       time: "Selepas Solat Maghrib",
       location: "Dewan Solat Utama",
-      description: "Sertailah kami untuk perbincangan menarik tentang ayat-ayat terpilih dari Al-Quran dengan aplikasi praktikal dalam kehidupan."
+      description: "Sertailah kami untuk perbincangan menarik tentang ayat-ayat terpilih dari Al-Quran dengan aplikasi praktikal dalam kehidupan.",
+      image: "/images/quran-study.jpg"
     },
     {
       title: "Iftar Masyarakat",
@@ -21,7 +22,8 @@ export default function Events() {
       date: "15 Mac 2026",
       time: "2:00 PM - 4:00 PM",
       location: "Dewan Masyarakat",
-      description: "Bengkel interaktif untuk remaja yang merangkumi ajaran Islam asas dan pembinaan sahsiah."
+      description: "Bengkel interaktif untuk remaja yang merangkumi ajaran Islam asas dan pembinaan sahsiah.",
+      image: "/images/youth-workshop.jpg"
     }
   ]
 

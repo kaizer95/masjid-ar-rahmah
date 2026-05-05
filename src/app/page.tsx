@@ -25,6 +25,7 @@ export default function Home() {
       title: 'Solat Jumaat',
       date: '5 Mei 2026',
       content: 'Solat Jumaat akan diadakan pada pukul 12:30 PM. Sila hadir awal.',
+      image: '/images/announcement-jumaat.jpg',
     },
     {
       title: 'Kelas Al-Quran',
@@ -35,6 +36,7 @@ export default function Home() {
       title: 'Gotong Royong',
       date: '15 Mei 2026',
       content: 'Gotong royong membersihkan kawasan masjid. Mari kita bersama-sama.',
+      image: '/images/announcement-gotong.jpg',
     },
   ]
 
